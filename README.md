@@ -48,7 +48,7 @@ This instctruction for centos icinga-client machine(nrpe), for another distribut
  service nrpe restart
  service nginx restart
  ```
-7. add configuration on icinga host (i use icinga 2 and my config looks like) and keep this configs in different files
+7. add configuration on icinga host in my case it's icinga2 and here is configs which I keep in in different files
  ```
   object Host "nicloay.com" {
     import "generic-host"
