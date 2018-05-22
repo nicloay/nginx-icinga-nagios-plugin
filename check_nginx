@@ -96,10 +96,10 @@ except Exception:
 if 'warning' in dir() and 'critical' in dir():
    if int(ActiveConn) >= int(critical):
       print 'CRITICAL - %s|%s' % (output,perfdata)
-      sys.exit(1)
+      sys.exit(2)
    elif int(ActiveConn) >= int(warning):
       print 'WARNING - %s|%s' % (output,perfdata)
-      sys.exit(2)
+      sys.exit(1)
    else:
       print 'OK - %s|%s' % (output,perfdata)
       sys.exit(0)
