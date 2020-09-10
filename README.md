@@ -69,4 +69,7 @@ This instctruction for centos icinga-client machine(nrpe), for another distribut
   }
   
  ```
-   
+ 
+ License
+=======
+This fix distribute under [WTFPL](https://en.wikipedia.org/wiki/WTFPL) license. for original code license please consult [developer](https://exchange.nagios.org/directory/Plugins/Web-Servers/nginx/check_nginx/details) of original plugin.
