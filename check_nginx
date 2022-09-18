@@ -88,7 +88,7 @@ try:
    writing = b[3]
    waiting = b[5]
    output = 'ActiveConn:%s,reading:%s,writing:%s,waiting:%s' % (ActiveConn,reading,writing,waiting)
-   perfdata = 'ActiveConn:%s,reading:%s,writing:%s,waiting:%s' % (ActiveConn,reading,writing,waiting)
+   perfdata = 'ActiveConn=%s;reading=%s;writing=%s;waiting=%s' % (ActiveConn,reading,writing,waiting)
 
 except Exception:
    print "NGINX STATUS unknown: Error while getting Connection"
